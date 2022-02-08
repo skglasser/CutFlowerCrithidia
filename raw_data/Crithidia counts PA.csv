@@ -1,0 +1,761 @@
+Bee_ID,Species,Date COLLECTED,Plant collected on,Farm,PA,Count,Wing_MM,Counter_Inits,Notes,Treatment
+1,bimac,7/14/21,borage,RCUT,0,0,,EK,,CUT
+2,bimac,7/14/21,borage,RCUT,0,0,,EK,,CUT
+3,imp,7/14/21,borage,RCUT,0,0,,EK,,CUT
+4,imp,7/14/21,borage,RCUT,1,1,,EK,,CUT
+5,imp,7/14/21,borage,RCUT,0,0,,EK,,CUT
+6,bimac,7/15/21,zinnia,RCUT,0,0,,EK,,CUT
+7,bimac,7/15/21,snapdragon,RCUT,1,176,,EK,,CUT
+8,bimac,7/15/21,cerinthe,RCUT,1,251,,EK,,CUT
+9,bimac,7/15/21,zinnia,RCUT,0,0,,EK,,CUT
+10,bimac,7/15/21,salvia,RCUT,0,0,,EK,,CUT
+11,bimac,7/15/21,gomphrena,RCUT,1,73,,EK,,CUT
+12,gris,7/15/21,gomphrena,RCUT,0,0,,EK,Check ID again later,CUT
+13,bimac,7/15/21,snapdragon,RCUT,1,3,,EK,,CUT
+14,vagans,7/15/21,borage,RCUT,0,0,,EK,,CUT
+15,bimac,7/15/21,cerinthe,RCUT,1,187,,EK,,CUT
+16,gris,7/15/21,snapdragon,RCUT,0,0,,EK,,CUT
+17,imp,7/15/21,cerinthe,RCUT,0,0,,EK,,CUT
+18,bimac,7/15/21,zinnia,RCUT,1,180,,EK,,CUT
+19,imp,7/15/21,borage,RCUT,0,0,,EK,,CUT
+20,imp,7/15/21,myosotis,RCUT,0,0,,EK,,CUT
+21,vagans,7/15/21,cerinthe,RCUT,1,8,,EK,,CUT
+22,gris,7/15/21,snapdragon,RCUT,NA,NA,,EK,Escaped 7-16-21,CUT
+23,bimac,7/15/21,cerinthe,RCUT,1,169,,EK,,CUT
+24,gris,7/15/21,cerinthe,RCUT,1,4,,EK,,CUT
+25,gris,7/15/21,gomphrena,RCUT,1,3,,EK,,CUT
+26,imp,7/15/21,zinnia,RCUT,1,97,,EK,,CUT
+27,imp,7/15/21,borage,RCUT,0,0,,EK,,CUT
+28,bimac,7/15/21,gomphrena,RCUT,1,72,,EK,,CUT
+29,NA,7/15/21,NA,RCUT,NA,NA,NA,NA,,CUT
+30,vagans,7/15/21,pea,RCUT,1,307,,EK,,CUT
+31,imp,7/15/21,snapdragon,RCUT,0,0,,EK,,CUT
+32,imp,7/15/21,gomphrena,RCUT,0,0,,EK,,CUT
+33,vagans,7/15/21,cerinthe,RCUT,0,0,,EK,,CUT
+34,bimac,7/15/21,snapdragon,RCUT,1,3,,EK,large crithidia,CUT
+35,imp,7/15/21,calendula,RCUT,0,0,,EK,double check ID,CUT
+36,imp,7/15/21,NA,RCUT,NA,NA,,EK,male,CUT
+37,imp,7/15/21,NA,RCUT,NA,NA,,EK,male,CUT
+38,imp,7/15/21,xerochrysum,RCUT,1,125,,EK,,CUT
+39,gris,7/15/21,gomphrena,RCUT,0,0,,EK,double check ID,CUT
+40,imp,7/15/21,cerinthe,RCUT,0,0,,EK,,CUT
+41,bimac,7/15/21,zinnia,RCUT,1,140,,EK,,CUT
+42,bimac,7/15/21,gomphrena,RCUT,1,4,,EK,,CUT
+43,vagans,7/15/21,cerinthe,RCUT,1,2,,EK,,CUT
+44,NA,7/15/21,NA,RCUT,NA,NA,NA,NA,male,CUT
+45,bimac,7/15/21,clover,RCON,0,0,,AEF,"AEF counted all on this page except for the three w ""EK""",CON
+46,NA,7/15/21,clover,RCON,NA,NA,,AEF,,CON
+47,imp,7/15/21,clover,RCON,0,0,,AEF,,CON
+48,bimac,7/15/21,clover,RCON,1,213,,AEF,,CON
+49,gris,7/15/21,clover,RCON,0,0,,AEF,,CON
+50,gris,7/15/21,clover,RCON,1,140,,AEF,,CON
+51,bimac,7/15/21,clover,RCON,0,0,,AEF,,CON
+52,imp,7/15/21,clover,RCON,0,0,,AEF,,CON
+53,imp,7/15/21,clover,RCON,0,0,,AEF,,CON
+54,NA,7/15/21,clover,RCON,NA,NA,,AEF,,CON
+55,gris,7/15/21,clover,RCON,0,0,,AEF,,CON
+56,gris,7/15/21,clover,RCON,1,27,,AEF,,CON
+57,NA,7/15/21,clover,RCON,NA,NA,,AEF,,CON
+58,bimac,7/15/21,clover,RCON,0,0,,AEF,,CON
+59,bimac,7/15/21,clover,RCON,1,42,,AEF,,CON
+60,imp,7/15/21,clover,RCON,1,178,,AEF,,CON
+61,imp,7/15/21,clover,RCON,0,0,,AEF,,CON
+62,gris,7/15/21,clover,RCON,0,0,,AEF,,CON
+63,imp,7/15/21,clover,RCON,0,0,,AEF,,CON
+64,imp,7/15/21,clover,RCON,0,0,,AEF,,CON
+65,bimac,7/15/21,clover,RCON,NA,NA,,AEF,,CON
+66,NA,7/15/21,clover,RCON,NA,NA,,AEF,,CON
+67,imp,7/15/21,clover,RCON,0,0,,AEF,,CON
+68,gris,7/15/21,clover,RCON,1,114,,AEF,huge worker?,CON
+69,imp,7/15/21,clover,RCON,0,0,,AEF,,CON
+70,bimac,7/15/21,clover,RCON,0,0,,AEF,,CON
+71,imp,7/15/21,clover,RCON,1,137,,EK,,CON
+72,NA,7/15/21,clover,RCON,NA,NA,,AEF,,CON
+73,bimac,7/15/21,clover,RCON,1,401,,EK,,CON
+74,imp,7/15/21,clover,RCON,0,0,,AEF,,CON
+75,gris,7/15/21,clover,RCON,1,1,,EK,,CON
+76,gris,7/15/21,clover,RCON,0,0,,AEF,,CON
+77,bimac,7/15/21,clover,RCON,1,261,,AEF,,CON
+78,NA,7/15/21,NA,RCON,NA,NA,,AEF,,CON
+79,imp,7/19/21,echinacea,SIMP,NA,NA,,EK,died on dissection 7/20,CON
+80,imp,7/19/21,zinnia,SIMP,0,0,,EK,,CON
+81,imp,7/19/21,zinnia,SIMP,0,0,,EK,,CON
+82,imp,7/19/21,cosmos,SIMP,0,0,,EK,,CON
+83,imp,7/19/21,tomatoes,SIMP,0,0,,EK,,CON
+84,imp,7/19/21,cosmos,SIMP,0,0,,EK,,CON
+85,imp,7/19/21,tomatoes,SIMP,0,0,,EK,died on dissection 7/20,CON
+86,imp,7/19/21,tomatoes,SIMP,0,0,,EK,,CON
+87,imp,7/19/21,tomatoes,SIMP,0,0,,EK,,CON
+88,imp,7/19/21,silphium,SIMP,0,0,,EK,,CON
+89,imp,7/19/21,tomatoes,SIMP,0,0,,EK,,CON
+90,imp,7/19/21,tomatoes,SIMP,1,83,,EK,,CON
+91,imp,7/19/21,zinnia,SIMP,0,0,,EK,,CON
+92,imp,7/19/21,zinnia,SIMP,0,0,,EK,,CON
+93,imp,7/19/21,zinnia,SIMP,0,0,,EK,,CON
+94,imp,7/19/21,tomatoes,SIMP,0,0,,EK,,CON
+95,imp,7/19/21,zinnia,SIMP,0,0,,EK,died in incubator 7/20,CON
+96,imp,7/19/21,zinnia,SIMP,0,0,,EK,died in incubator 7/20,CON
+97,imp,7/19/21,tomatoes,SIMP,0,0,,EK,,CON
+98,imp,7/19/21,daisy,SIMP,0,0,,EK,,CON
+99,imp,7/19/21,silphium,SIMP,0,0,,EK,,CON
+100,imp,7/19/21,echinacea,SIMP,0,0,,EK,,CON
+101,imp,7/19/21,origanum,SIMP,0,0,,EK,,CON
+102,imp,7/19/21,origanum,SIMP,0,0,,EK,,CON
+103,imp,7/19/21,silphium,SIMP,0,0,,EK,,CON
+104,imp,7/19/21,echinacea,SIMP,0,0,,EK,,CON
+105,imp,7/19/21,echinacea,SIMP,0,0,,EK,,CON
+106,imp,7/19/21,echinacea,SIMP,0,0,,EK,,CON
+107,imp,7/19/21,zinnia,SIMP,0,0,,EK,,CON
+108,imp,7/19/21,zinnia,SIMP,0,0,,EK,,CON
+109,imp,7/19/21,zinnia,SIMP,0,0,,EK,,CON
+110,imp,7/19/21,tomatoes,SIMP,0,0,,EK,,CON
+111,imp,7/19/21,zinnia,SIMP,0,0,,EK,,CON
+112,imp,7/19/21,monarda,SIMP,0,0,,EK,mint family,CON
+113,imp,7/19/21,tomatoes,SIMP,0,0,,EK,,CON
+114,imp,7/19/21,tomatoes,SIMP,0,0,,EK,,CON
+115,imp,7/19/21,monarda,SIMP,0,0,,EK,mint family,CON
+116,imp,7/19/21,zinnia,SIMP,0,0,,EK,,CON
+117,imp,7/20/21,zinnia,LAUR,0,0,,SG/RY/EK,,CUT
+118,imp,7/20/21,zinnia,LAUR,0,0,,SG/RY/EK,,CUT
+119,vagans,7/20/21,zinnia,LAUR,0,0,,SG/RY/EK,,CUT
+120,imp,7/20/21,zinnia,LAUR,0,0,,SG/RY/EK,,CUT
+121,gris,7/20/21,zinnia,LAUR,0,0,,SG/RY/EK,,CUT
+122,imp,7/20/21,zinnia,LAUR,0,0,,SG/RY/EK,,CUT
+123,vagans,7/20/21,zinnia,LAUR,1,2,,RY,,CUT
+124,imp,7/20/21,zinnia,LAUR,0,0,,RY,,CUT
+125,vagans,7/20/21,zinnia,LAUR,1,3,,SG,,CUT
+126,vagans,7/20/21,zinnia,LAUR,1,1,,SG,,CUT
+127,vagans,7/20/21,zinnia,LAUR,1,100,,SG/RY/EK,,CUT
+128,imp,7/20/21,cosmos,LAUR,0,0,,RY,,CUT
+129,imp,7/20/21,cosmos,LAUR,0,0,,RY/SG,,CUT
+130,vagans,7/20/21,zinnia,LAUR,1,10,,RY/SG,,CUT
+131,vagans,7/20/21,zinnia,LAUR,0,0,,EK,,CUT
+132,vagans,7/20/21,zinnia,LAUR,0,0,,EK,,CUT
+133,imp,7/20/21,cosmos,LAUR,1,45,,RY/SG,rod like bacteria,CUT
+134,vagans,7/20/21,zinnia,LAUR,0,0,,RY,,CUT
+135,vagans,7/20/21,zinnia,LAUR,1,50,,EK,,CUT
+136,vagans,7/20/21,zinnia,LAUR,1,25,,RY,,CUT
+137,imp,7/20/21,zinnia,LAUR,0,0,,RY,few found outside of squares,CUT
+138,vagans,7/20/21,zinnia,LAUR,0,0,,RY,,CUT
+139,vagans,7/20/21,zinnia,LAUR,1,1,,SG,few found outside of squares,CUT
+140,vagans,7/20/21,zinnia,LAUR,0,0,,SG,,CUT
+141,vagans,7/20/21,zinnia,LAUR,0,0,,SG,,CUT
+142,vagans,7/20/21,zinnia,LAUR,1,42,,SG,,CUT
+143,vagans,7/20/21,zinnia,LAUR,1,48,,RY,,CUT
+144,gris,7/20/21,cosmos,LAUR,0,0,,RY,,CUT
+145,vagans,7/20/21,zinnia,LAUR,1,26,,SG,,CUT
+146,vagans,7/20/21,zinnia,LAUR,0,0,,SG,rod-like bacteria,CUT
+147,vagans,7/20/21,zinnia,LAUR,0,0,,RY,,CUT
+148,vagans,7/20/21,zinnia,LAUR,1,190,,RY/SG/EK,,CUT
+149,vagans,7/20/21,zinnia,LAUR,0,0,,EK,,CUT
+150,vagans,7/20/21,zinnia,LAUR,1,44,,EK,,CUT
+151,vagans,7/20/21,zinnia,LAUR,1,13,,EK,,CUT
+152,vagans,7/20/21,zinnia,LAUR,0,0,,EK,,CUT
+153,bimac,7/20/21,zinnia,LAUR,0,0,,RY,,CUT
+154,vagans,7/20/21,zinnia,LAUR,1,39,,RY,,CUT
+155,bimac,7/20/21,zinnia,LAUR,1,82,,SG,,CUT
+156,vagans,7/20/21,zinnia,LAUR,NA,NA,,NA,died 7/21/21,CUT
+157,vagans,7/20/21,zinnia,LAUR,0,0,,SG,,CUT
+158,vagans,7/20/21,zinnia,LAUR,1,38,,SG/RY,"check count *weird, originally got 443, may have been taken from the bottom of tube but when we checked again @ bottom it was still around 30",CUT
+159,vagans,7/20/21,zinnia,LAUR,1,9,,RY,,CUT
+160,imp,7/20/21,cosmos,LAUR,NA,NA,,NA,died 7/20/21,CUT
+161,bimac,7/20/21,zinnia,LAUR,1,80,,SG,,CUT
+162,vagans,7/20/21,zinnia,LAUR,0,0,,SG,,CUT
+163,vagans,7/20/21,zinnia,LAUR,1,58,,RY,,CUT
+164,vagans,7/20/21,zinnia,LAUR,0,0,,RY,,CUT
+165,vagans,7/20/21,zinnia,LAUR,1,6,,SG,,CUT
+166,bimac,7/20/21,zinnia,LAUR,1,99,,SG,,CUT
+167,vagans,7/20/21,zinnia,LAUR,0,0,,RY,,CUT
+168,vagans,7/20/21,zinnia,LAUR,1,13,,RY,,CUT
+169,vagans,7/20/21,zinnia,LAUR,1,5,,SG,all 7/20 bees were briefly in fridge so Elisa could replace sucrose,CUT
+170,imp,7/22/21,zinnia,LAUR,0,0,,RY,,CUT
+171,imp,7/22/21,zinnia,LAUR,1,22,,RY/SG,,CUT
+172,imp,7/22/21,zinnia,LAUR,0,0,,SG,,CUT
+173,gris,7/22/21,zinnia,LAUR,0,0,,SG,,CUT
+174,imp,7/22/21,zinnia,LAUR,0,0,,RY,,CUT
+175,bimac,7/22/21,zinnia,LAUR,0,0,,RY,queen? kept frozen,CUT
+176,imp,7/22/21,zinnia,LAUR,1,1,,SG,,CUT
+177,imp,7/22/21,zinnia,LAUR,0,0,,SG,,CUT
+178,gris,7/22/21,zinnia,LAUR,NA,NA,,,queen? died in incubator not in freezer,CUT
+179,gris,7/22/21,zinnia,LAUR,1,142,,SG,rod like,CUT
+180,bimac,7/22/21,zinnia,LAUR,NA,NA,,,male,CUT
+181,bimac,7/22/21,zinnia,LAUR,0,0,,SG,looked almost dead b4 CO2/ rod like bacteria,CUT
+182,bimac,7/22/21,zinnia,LAUR,0,0,,,,CUT
+183,bimac,7/22/21,zinnia,LAUR,0,0,,RY,no initialws but very likely RY,CUT
+184,gris,7/22/21,zinnia,LAUR,0,0,,RY,dark gut,CUT
+185,imp,7/22/21,zinnia,LAUR,0,0,,RY,,CUT
+186,vagans,7/22/21,zinnia,LAUR,0,0,,SG,really old discolored gut,CUT
+187,gris,7/22/21,zinnia,LAUR,0,0,,SG,,CUT
+188,imp,7/22/21,zinnia,LAUR,1,3,,SG,,CUT
+189,imp,7/22/21,zinnia,LAUR,0,0,,SG,,CUT
+190,NA,7/22/21,zinnia,LAUR,0,0,,RY,"queen? saved in freezer, gris/bimac/vagans",CUT
+191,imp,7/22/21,zinnia,LAUR,1,9,,SG,,CUT
+192,bimac,7/22/21,zinnia,LAUR,1,150,,RY/SG,,CUT
+193,imp,7/22/21,zinnia,LAUR,1,3,,SG,messy sample/ maybe dead crith.,CUT
+194,imp,7/22/21,zinnia,LAUR,1,53,,SG,,CUT
+195,imp,7/22/21,zinnia,LAUR,1,75,,SG,,CUT
+196,imp,7/22/21,zinnia,LAUR,0,0,,SG,,CUT
+197,imp,7/22/21,zinnia,LAUR,0,0,,RY,,CUT
+198,imp,7/22/21,zinnia,LAUR,0,0,,RY,,CUT
+199,imp,7/22/21,zinnia,LAUR,1,92,,SG,,CUT
+200,gris,7/22/21,zinnia,LAUR,1,45,,SG,,CUT
+201,imp,7/22/21,zinnia,LAUR,1,53,,RY/SG,"black nectar crop, still alive",CUT
+202,imp,7/22/21,zinnia,LAUR,0,0,,RY,,CUT
+203,imp,7/22/21,zinnia,LAUR,0,0,,SG,,CUT
+204,imp,7/22/21,zinnia,LAUR,0,0,,SG,,CUT
+205,imp,7/22/21,zinnia,LAUR,0,0,,RY,,CUT
+206,imp,7/22/21,zinnia,LAUR,NA,NA,,NA,died in incubator,CUT
+207,imp,7/22/21,zinnia,LAUR,0,0,,RY,,CUT
+208,imp,7/22/21,zinnia,LAUR,1,69,,SG,,CUT
+209,imp,7/22/21,zinnia,LAUR,1,15,,SG,,CUT
+210,imp,7/22/21,zinnia,LAUR,0,0,,SG,,CUT
+211,bimac,7/22/21,zinnia,LAUR,1,55,,SG/RY,,CUT
+212,imp,7/26/21,helianthus,GOLO,1,1,,SG,few crithidia outside,CON
+213,imp,7/26/21,eutrochium,GOLO,1,316,,SG,,CON
+214,vagans,7/26/21,dahlia,GOLO,0,0,,SG,counted 7/27? missing then found?,CON
+215,vagans,7/26/21,,GOLO,0,0,,SG,,CON
+216,imp,7/26/21,eutrochium,GOLO,0,0,,SG,,CON
+217,imp,7/26/21,squash,GOLO,0,0,,SG,,CON
+218,imp,7/26/21,zinnia,GOLO,0,0,,SG,,CON
+219,vagans,7/26/21,dahlia,GOLO,NA,NA,,NA,old die,CON
+220,vagans,7/26/21,,GOLO,1,37,,SG,,CON
+221,imp,7/26/21,ageratum,GOLO,0,0,,SG,,CON
+222,vagans,7/26/21,,GOLO,1,2,,SG,,CON
+223,gris,7/26/21,,GOLO,1,82,,SG,,CON
+224,imp,7/26/21,gomphrena,GOLO,1,246,,SG,,CON
+225,imp,7/27/21,eutrochium,GOLO,0,0,,SG,,CON
+226,imp,7/27/21,dahlia,GOLO,0,0,,SG,,CON
+227,imp,7/27/21,eutrochium,GOLO,0,0,,SG,,CON
+228,imp,7/27/21,clover,GOLO,1,131,,SG,old,CON
+229,imp,7/27/21,eutrochium,GOLO,1,31,,SG,,CON
+230,imp,7/27/21,eutrochium,GOLO,0,0,,SG,,CON
+231,imp,7/27/21,eutrochium,GOLO,1,25,,SG,,CON
+232,imp,7/28/21,melon,RCON,0,0,,RY,,CON
+233,imp,7/28/21,melon,RCON,1,119,,RY,,CON
+234,imp,7/28/21,melon,RCON,0,0,,SG,,CON
+235,imp,7/28/21,melon,RCON,0,0,,SG,,CON
+236,imp,7/28/21,melon,RCON,1,5,,SG,,CON
+237,bimac,7/28/21,melon,RCON,1,390,,SG,,CON
+238,imp,7/28/21,melon,RCON,1,1,,RY,,CON
+239,imp,7/28/21,melon,RCON,1,6,,RY,,CON
+240,imp,7/28/21,melon,RCON,0,0,,SG,,CON
+241,imp,7/28/21,melon,RCON,NA,NA,,SG,dead 7/29,CON
+242,imp,7/28/21,melon,RCON,1,99,,SG,,CON
+243,imp,7/28/21,clover,RCON,0,0,,RY,,CON
+244,imp,7/28/21,melon,RCON,1,31,,RY,,CON
+245,gris,7/28/21,melon,RCON,0,0,,SG,,CON
+246,imp,7/28/21,melon,RCON,1,72,,SG,,CON
+247,imp,7/28/21,melon,RCON,1,3,,SG,,CON
+248,imp,7/28/21,melon,RCON,1,151,,SG,,CON
+249,imp,7/28/21,melon,RCON,1,99,,RY,,CON
+250,imp,7/28/21,melon,RCON,0,0,,RY,,CON
+251,imp,7/28/21,melon,RCON,NA,NA,,NA,changed numbers,CON
+252,imp,7/28/21,melon,RCON,0,0,,SG,,CON
+253,imp,7/28/21,melon,RCON,0,0,,SG,,CON
+254,imp,7/28/21,squash,RCON,0,0,,SG,,CON
+255,imp,7/28/21,melon,RCON,0,0,,SG,,CON
+256,imp,7/28/21,melon,RCON,1,1,,RY,,CON
+257,bimac,7/28/21,melon,RCON,1,28,,SG,,CON
+258,imp,7/28/21,melon,RCON,1,66,,SG,,CON
+259,imp,7/28/21,melon,RCON,1,17,,RY,,CON
+260,imp,7/28/21,melon,RCON,1,8,,SG,,CON
+261,imp,7/28/21,melon,RCON,0,0,,SG,,CON
+262,imp,7/28/21,melon,RCON,0,0,,RY,,CON
+263,imp,7/28/21,clover,RCON,0,0,,RY,,CON
+264,imp,7/28/21,melon,RCON,1,8,,SG,,CON
+265,imp,7/28/21,melon,RCON,0,0,,SG,,CON
+266,imp,7/28/21,gomphrena,RCUT,1,168,,RY,,CUT
+267,imp,7/28/21,gomphrena,RCUT,0,0,,RY,,CUT
+268,bimac,7/28/21,zinnia,RCUT,1,268,,SG,,CUT
+269,imp,7/28/21,snapdragon,RCUT,1,64,,SG,,CUT
+270,imp,7/28/21,cerinthe,RCUT,1,166,,RY,,CUT
+271,imp,7/28/21,zinnia,RCUT,0,0,,SG,,CUT
+272,imp,7/28/21,gomphrena,RCUT,1,140,,SG,,CUT
+273,imp,7/28/21,gomphrena,RCUT,NA,NA,,SG,dead 7/29,CUT
+274,imp,7/28/21,cerinthe,RCUT,1,72,,SG,,CUT
+275,imp,7/28/21,zinnia,RCUT,0,0,,SG,,CUT
+276,imp,7/28/21,gomphrena,RCUT,1,79,,SG,,CUT
+277,imp,7/28/21,zinnia,RCUT,0,0,,SG,,CUT
+278,imp,7/28/21,cerinthe,RCUT,1,182,,SG,,CUT
+279,gris,7/28/21,celosia,RCUT,0,0,,SG,,CUT
+280,imp,7/28/21,gomphrena,RCUT,1,264,,SG,,CUT
+281,imp,7/28/21,zinnia,RCUT,NA,NA,,SG,dead 7/29,CUT
+282,vagans,7/28/21,gomphrena,RCUT,1,197,,SG,,CUT
+283,imp,7/28/21,gomphrena,RCUT,1,3,,SG,,CUT
+284,imp,7/28/21,gomphrena,RCUT,1,10,,SG,,CUT
+285,imp,7/28/21,gomphrena,RCUT,1,3,,SG,,CUT
+286,gris,7/28/21,zinnia,RCUT,1,16,,SG,,CUT
+287,bimac,7/28/21,cerinthe,RCUT,1,109,,SG,,CUT
+288,bimac,7/28/21,cerinthe,RCUT,1,42,,SG,,CUT
+289,imp,7/28/21,gomphrena,RCUT,1,93,,SG,,CUT
+290,imp,7/28/21,zinnia,RCUT,1,33,,SG,,CUT
+291,imp,7/28/21,zinnia,RCUT,1,61,,SG,,CUT
+292,imp,7/28/21,cerinthe,RCUT,0,0,,SG,,CUT
+293,imp,7/28/21,celosia,RCUT,1,1,,SG,,CUT
+294,imp,7/28/21,gomphrena,RCUT,1,68,,SG,,CUT
+295,imp,7/28/21,gomphrena,RCUT,1,50,,SG,,CUT
+296,imp,7/28/21,zinnia,RCUT,NA,NA,,SG,not found?,CUT
+297,imp,7/28/21,melon,RCON,1,110,,SG,,CON
+298,imp,7/28/21,zinnia,RCUT,0,0,,SG,,CUT
+299,imp,08/03/2021,helianthus,LASA,0,0,,,,CUT
+300,imp,08/03/2021,helianthus,LASA,0,0,,,,CUT
+301,imp,08/03/2021,helianthus,LASA,1,19,,,old,CUT
+302,imp,08/03/2021,helianthus,LASA,0,0,,,,CUT
+303,imp,08/03/2021,helianthus,LASA,0,0,,,,CUT
+304,imp,08/03/2021,zinnia,LASA,1,13,,,,CUT
+305,imp,08/03/2021,zinnia,LASA,1,23,,RY,,CUT
+306,imp,08/03/2021,zinnia,LASA,1,21,,RY,,CUT
+307,imp,08/03/2021,zinnia,LASA,NA,NA,,RY,dead incubator,CUT
+308,imp,08/03/2021,zinnia,LASA,0,0,,RY,dead incubator,CUT
+309,imp,08/03/2021,helianthus,LASA,0,0,,RY,,CUT
+310,imp,08/03/2021,zinnia,LASA,0,0,,RY,,CUT
+311,imp,08/03/2021,zinnia,LASA,1,47,,RY,,CUT
+312,imp,08/03/2021,zinnia,LASA,0,0,,RY,,CUT
+313,bimac,08/03/2021,zinnia,LASA,NA,NA,,RY,Queen? frozen. not counted black film on top,CUT
+314,imp,08/03/2021,zinnia,LASA,1,49,,SG,,CUT
+315,imp,08/03/2021,zinnia,LASA,1,29,,RY,,CUT
+316,imp,08/03/2021,zinnia,LASA,0,0,,RY,,CUT
+317,imp,08/03/2021,zinnia,LASA,0,0,,RY,,CUT
+318,imp,08/03/2021,zinnia,LASA,1,160,,RY,,CUT
+319,imp,08/03/2021,helianthus,LASA,0,0,,SG,,CUT
+320,imp,08/03/2021,zinnia,LASA,1,131,,RY,,CUT
+321,imp,08/03/2021,zinnia,LASA,1,8,,SG,,CUT
+322,imp,08/03/2021,helianthus,LASA,0,0,,RY,old,CUT
+323,imp,08/03/2021,zinnia,LASA,0,0,,RY,,CUT
+324,imp,08/03/2021,zinnia,LASA,NA,NA,,RY,dead incubator,CUT
+325,imp,08/03/2021,zinnia,LASA,0,0,,RY,pollen removed from cobic.,CUT
+326,imp,08/03/2021,zinnia,LASA,1,19,,RY,,CUT
+327,imp,08/04/2021,zinnia,SIMP,1,128,,RY,c,CON
+328,imp,08/04/2021,zinnia,SIMP,1,26,,SG,c,CON
+329,imp,08/04/2021,zinnia,SIMP,NA,NA,,NA,dead 8/5/21,CON
+330,imp,08/04/2021,zinnia,SIMP,1,29,,SG,crith not moving,CON
+331,imp,08/04/2021,zinnia,SIMP,1,18,,SG,larger crith,CON
+332,imp,08/04/2021,zinnia,SIMP,1,2,,RY,,CON
+333,imp,08/04/2021,zinnia,SIMP,0,0,,RY,,CON
+334,imp,08/04/2021,zinnia,SIMP,0,0,,SG,c,CON
+335,imp,08/04/2021,zinnia,SIMP,0,0,,SG,,CON
+336,imp,08/04/2021,zinnia,SIMP,0,0,,RY,,CON
+337,imp,08/04/2021,zinnia,SIMP,0,0,,SG,C,CON
+338,imp,08/04/2021,zinnia,SIMP,0,0,,SG,,CON
+339,imp,08/04/2021,zinnia,SIMP,0,0,,SG,,CON
+340,imp,08/04/2021,zinnia,SIMP,NA,NA,,NA,dead 8/5/21,CON
+341,imp,08/04/2021,cosmos,SIMP,1,1,,SG,,CON
+342,imp,08/04/2021,zinnia,SIMP,0,0,,SG,,CON
+343,imp,08/04/2021,monarda,SIMP,0,0,,RY,,CON
+344,imp,08/04/2021,zinnia,SIMP,0,0,,RY,,CON
+345,imp,08/04/2021,zinnia,SIMP,NA,NA,,NA,dead 8/5/21,CON
+346,imp,08/04/2021,cosmos,SIMP,0,0,,SG,,CON
+347,vagans,08/04/2021,zinnia,SIMP,1,24,,SG,C not moving,CON
+348,imp,08/04/2021,echinacea,SIMP,0,0,,RY,,CON
+349,imp,08/04/2021,echinacea,SIMP,0,0,,RY,,CON
+350,imp,08/04/2021,zinnia,SIMP,0,0,,SG,C,CON
+351,imp,08/04/2021,zinnia,SIMP,0,0,,SG,,CON
+352,imp,08/04/2021,zinnia,SIMP,1,7,,RY,,CON
+353,imp,08/04/2021,zinnia,SIMP,0,0,,RY,,CON
+354,imp,08/04/2021,zinnia,SIMP,0,0,,SG,,CON
+355,imp,08/04/2021,zinnia,SIMP,0,0,,SG,,CON
+356,imp,08/04/2021,echinacea,SIMP,0,0,,SG,,CON
+357,imp,08/04/2021,zinnia,SIMP,NA,NA,,NA,C different pollen loads? died? ,CON
+358,imp,08/04/2021,zinnia,SIMP,0,0,,SG,C,CON
+359,imp,08/04/2021,zinnia,SIMP,0,0,,RY,,CON
+360,imp,08/04/2021,zinnia,SIMP,1,1,,RY,C,CON
+361,imp,08/04/2021,echinacea,SIMP,NA,NA,,NA,dead on 8/5/21,CON
+362,imp,08/04/2021,cosmos,SIMP,0,0,,SG,,CON
+363,imp,08/04/2021,zinnia,SIMP,1,68,,SG,C,CON
+364,imp,08/04/2021,echinacea,SIMP,0,0,,RY,,CON
+365,imp,08/04/2021,cosmos,SIMP,1,16,,RY,,CON
+366,imp,08/04/2021,echinacea,SIMP,0,0,,SG,C,CON
+367,imp,08/04/2021,zinnia,SIMP,0,0,,SG,,CON
+368,imp,08/04/2021,zinnia,SIMP,NA,NA,,NA,C died 8/5/21,CON
+369,bimac,08/05/2021,zinnia,LAUR,1,18,,SG,,CUT
+370,vagans,08/05/2021,zinnia,LAUR,1,19,,SG,,CUT
+371,vagans,08/05/2021,zinnia,LAUR,1,8,,SG,,CUT
+372,vagans,08/05/2021,zinnia,LAUR,0,0,,SG,C,CUT
+373,vagans,08/05/2021,zinnia,LAUR,1,34,,RY,,CUT
+374,vagans,08/05/2021,zinnia,LAUR,1,157,,SG,,CUT
+375,vagans,08/05/2021,zinnia,LAUR,1,125,,RY,,CUT
+376,vagans,08/05/2021,cosmos,LAUR,0,0,,RY,,CUT
+377,vagans,08/05/2021,zinnia,LAUR,0,0,,RY,C,CUT
+378,vagans,08/05/2021,zinnia,LAUR,0,0,,RY,,CUT
+379,vagans,08/05/2021,cosmos,LAUR,1,20,,RY,,CUT
+380,vagans,08/05/2021,zinnia,LAUR,1,6,,RY,,CUT
+381,gris,08/05/2021,zinnia,LAUR,1,69,,RY,dead bee 381 vagans but another 381 bee?,CUT
+382,bimac,08/05/2021,zinnia,LAUR,0,0,,RY,,CUT
+383,vagans,08/05/2021,zinnia,LAUR,NA,NA,,NA,dead 8/6/21,CUT
+384,NA,08/05/2021,zinnia,LAUR,0,0,,SG,"old, perplexes",CUT
+385,NA,08/05/2021,cosmos,LAUR,0,0,,SG,perplexes,CUT
+386,imp,08/05/2021,zinnia,LAUR,1,282,,SG,,CUT
+387,imp,08/05/2021,zinnia,LAUR,1,82,,SG,,CUT
+388,imp,08/05/2021,cosmos,LAUR,0,0,,SG,,CUT
+389,imp,08/05/2021,cosmos,LAUR,0,0,,SG,,CUT
+390,imp,08/05/2021,cosmos,LAUR,0,0,,SG,,CUT
+391,imp,08/05/2021,cosmos,LAUR,1,3,,SG,,CUT
+392,imp,08/05/2021,cosmos,LAUR,1,2,,SG,,CUT
+393,imp,08/05/2021,zinnia,LAUR,1,109,,RY,,CUT
+394,imp,08/05/2021,zinnia,LAUR,0,0,,RY,,CUT
+395,imp,08/05/2021,zinnia,LAUR,1,65,,SG,,CUT
+396,imp,08/05/2021,zinnia,LAUR,1,86,,SG,,CUT
+397,imp,08/05/2021,zinnia,LAUR,NA,NA,,NA,dead 8/6/21,CUT
+398,imp,08/05/2021,zinnia,LAUR,1,58,,SG,,CUT
+399,imp,08/05/2021,zinnia,LAUR,0,0,,SG,,CUT
+400,imp,08/05/2021,zinnia,LAUR,1,31,,RY,,CUT
+401,imp,08/05/2021,zinnia,LAUR,1,120,,RY,,CUT
+402,imp,08/05/2021,zinnia,LAUR,0,0,,RY,,CUT
+403,imp,08/05/2021,zinnia,LAUR,1,36,,RY,,CUT
+404,imp,08/05/2021,zinnia,LAUR,1,98,,RY,,CUT
+405,imp,08/05/2021,zinnia,LAUR,1,89,,RY,,CUT
+406,imp,08/05/2021,zinnia,LAUR,1,27,,RY,,CUT
+407,imp,08/05/2021,zinnia,LAUR,1,94,,RY,,CUT
+408,imp,08/05/2021,cosmos,LAUR,1,149,,SG,,CUT
+409,imp,08/05/2021,cosmos,LAUR,0,0,,RY,,CUT
+410,imp,08/05/2021,zinnia,LAUR,0,0,,SG,,CUT
+411,imp,08/05/2021,cosmos,LAUR,NA,NA,,NA,dead 8/6/21,CUT
+412,imp,08/05/2021,cosmos,LAUR,0,0,,SG,,CUT
+413,imp,08/05/2021,cosmos,LAUR,1,55,,SG,,CUT
+414,imp,08/05/2021,zinnia,LAUR,1,4,,SG,,CUT
+415,imp,08/05/2021,zinnia,LAUR,1,32,,RY,,CUT
+416,imp,08/05/2021,zinnia,LAUR,1,31,,SG,,CUT
+417,imp,08/05/2021,zinnia,LAUR,0,0,,SG,,CUT
+418,imp,08/05/2021,zinnia,LAUR,0,0,,RY,,CUT
+419,imp,08/05/2021,cosmos,LAUR,0,0,,RY,,CUT
+420,imp,08/05/2021,cosmos,LAUR,NA,NA,,NA,dead 8/6/21,CUT
+421,imp,08/09/2021,clover,RCON,1,34,,RY,"C.  D=dark, C=corbicular",CON
+422,imp,08/09/2021,clover,RCON,1,9,,RY,DC,CON
+423,imp,08/09/2021,clover,RCON,1,72,,RY,C,CON
+424,imp,08/09/2021,clover,RCON,1,260,,RY,DC,CON
+425,imp,08/09/2021,melon,RCON,1,160,,SG,C,CON
+426,imp,08/09/2021,clover,RCON,0,0,,RY,C,CON
+427,imp,08/09/2021,clover,RCON,0,0,,RY,C,CON
+428,imp,08/09/2021,clover,RCON,0,0,,RY,C,CON
+429,imp,08/09/2021,clover,RCON,0,0,,SG,CD collect?,CON
+430,imp,08/09/2021,melon,RCON,1,11,,RY,,CON
+431,imp,08/09/2021,melon,RCON,1,2,,RY,C,CON
+432,imp,08/09/2021,melon,RCON,0,0,,RY,C,CON
+433,imp,08/09/2021,clover,RCON,1,3,,RY,,CON
+434,imp,08/09/2021,clover,RCON,0,0,,SG,C light?,CON
+435,imp,08/09/2021,melon,RCON,1,8,,RY,,CON
+436,imp,08/09/2021,melon,RCON,1,2,,SG,,CON
+437,imp,08/09/2021,melon,RCON,0,0,,SG,,CON
+438,imp,08/09/2021,melon,RCON,0,0,,SG,,CON
+439,imp,08/09/2021,clover,RCON,1,16,,SG,C collect?,CON
+440,imp,08/09/2021,melon,RCON,0,0,,SG,,CON
+441,imp,08/09/2021,melon,RCON,1,10,,SG,C,CON
+442,imp,08/09/2021,melon,RCON,0,0,,SG,C,CON
+443,imp,08/09/2021,melon,RCON,NA,NA,,NA,dead 8/10/21,CON
+444,imp,08/09/2021,melon,RCON,0,0,,RY,C,CON
+445,imp,08/09/2021,melon,RCON,1,4,,RY,C,CON
+446,imp,08/09/2021,melon,RCON,0,0,,RY,,CON
+447,imp,08/09/2021,melon,RCON,0,0,,RY,,CON
+448,imp,08/09/2021,melon,RCON,1,113,,RY,,CON
+449,imp,08/09/2021,melon,RCON,0,0,,RY,,CON
+450,imp,08/09/2021,melon,RCON,1,109,,SG,C,CON
+451,imp,08/09/2021,melon,RCON,0,0,,SG,,CON
+452,imp,08/09/2021,melon,RCON,1,52,,SG,C?,CON
+453,imp,08/09/2021,melon,RCON,1,164,,SG,C,CON
+454,imp,08/09/2021,persicaria,RCON,0,0,,SG,old small rod swimmers,CON
+455,imp,08/09/2021,melon,RCON,1,72,,SG,,CON
+456,imp,08/09/2021,melon,RCON,0,0,,SG,C small rod,CON
+457,imp,08/09/2021,melon,RCON,0,0,,SG,,CON
+458,imp,08/09/2021,rorippa,RCON,1,59,,SG,C,CON
+459,imp,08/09/2021,melon,RCON,NA,NA,,NA,C dead 8/10/21,CON
+460,imp,08/09/2021,melon,RCON,0,0,,RY,C,CON
+461,imp,08/09/2021,melon,RCON,1,53,,RY,C,CON
+462,imp,08/10/2021,gomphrena,RCUT,1,39,,RY,C,CUT
+463,imp,08/10/2021,marigold,RCUT,0,0,,SG,C,CUT
+464,imp,08/10/2021,zinnia,RCUT,0,0,,RY,C,CUT
+465,imp,08/10/2021,zinnia,RCUT,1,212,,SG,,CUT
+466,imp,08/10/2021,zinnia,RCUT,1,11,,RY,,CUT
+467,gris,08/10/2021,cosmos,RCUT,0,0,,SG,,CUT
+468,imp,08/10/2021,zinnia,RCUT,1,3,,RY,C,CUT
+469,imp,08/10/2021,marigold,RCUT,NA,NA,,NA,C dead 8/11/21,CUT
+470,imp,08/10/2021,cynoglossum,RCUT,1,3,,SG,C,CUT
+471,imp,08/10/2021,cosmos,RCUT,0,0,,RY,C,CUT
+472,imp,08/10/2021,marigold,RCUT,1,27,,SG,C,CUT
+473,imp,08/10/2021,zinnia,RCUT,1,77,,RY,C,CUT
+474,imp,08/10/2021,cosmos,RCUT,1,140,,SG,,CUT
+475,imp,08/10/2021,marigold,RCUT,1,125,,RY,C,CUT
+476,imp,08/10/2021,zinnia,RCUT,1,18,,SG,,CUT
+477,imp,08/10/2021,zinnia,RCUT,0,0,,RY,,CUT
+478,imp,08/10/2021,marigold,RCUT,1,9,,RY,,CUT
+479,imp,08/10/2021,marigold,RCUT,0,0,,SG,,CUT
+480,imp,08/10/2021,gomphrena,RCUT,1,54,,RY,C,CUT
+481,imp,08/10/2021,marigold,RCUT,0,0,,SG,C,CUT
+482,imp,08/10/2021,marigold,RCUT,1,46,,RY,C,CUT
+483,imp,08/10/2021,cosmos,RCUT,0,0,,SG,C,CUT
+484,imp,08/10/2021,zinnia,RCUT,1,5,,RY,C,CUT
+485,imp,08/10/2021,ageratum,RCUT,0,0,,SG,C,CUT
+486,imp,08/10/2021,marigold,RCUT,1,42,,SG,C,CUT
+487,imp,08/10/2021,aster,RCUT,1,14,,RY,C,CUT
+488,imp,08/10/2021,antirrhinum,RCUT,1,69,,RY,C snapdragon,CUT
+489,imp,08/10/2021,zinnia,RCUT,0,0,,RY,C,CUT
+490,imp,08/10/2021,salvia,RCUT,1,36,,RY,C,CUT
+491,imp,08/10/2021,zinnia,RCUT,1,5,,RY,C,CUT
+492,imp,08/10/2021,marigold,RCUT,0,0,,RY,,CUT
+493,imp,08/10/2021,antirrhinum,RCUT,NA,NA,,NA,dead 8/11/21,CUT
+494,imp,08/10/2021,zinnia,RCUT,1,3,,SG,,CUT
+495,imp,08/10/2021,zinnia,RCUT,1,47,,RY,C,CUT
+496,imp,08/10/2021,zinnia,RCUT,1,88,,SG,C,CUT
+497,imp,08/10/2021,zinnia,RCUT,1,35,,RY,C,CUT
+498,imp,08/10/2021,ageratum,RCUT,1,6,,SG,C,CUT
+499,imp,08/10/2021,marigold,RCUT,1,2,,RY,C ? collect c. load,CUT
+500,imp,08/10/2021,zinnia,RCUT,1,16,,SG,,CUT
+501,imp,08/10/2021,aster,RCUT,1,2,,RY,,CUT
+502,imp,08/10/2021,zinnia,RCUT,0,0,,SG,but a few outside,CUT
+503,imp,08/11/2021,eutrochium,GOLO,NA,NA,,NA,C,CON
+504,imp,08/11/2021,eutrochium,GOLO,NA,NA,,NA,dead 8/12 RY,CON
+505,imp,08/11/2021,eutrochium,GOLO,NA,NA,,NA,C dead 8/12 RY,CON
+506,imp,08/11/2021,eutrochium,GOLO,0,0,,RY,C,CON
+507,imp,08/11/2021,eutrochium,GOLO,NA,NA,,NA,C dead 8/12 RY,CON
+508,imp,08/11/2021,eutrochium,GOLO,0,0,,RY,C,CON
+509,imp,08/11/2021,eutrochium,GOLO,NA,NA,,NA,C dead 8/12 RY,CON
+510,imp,08/11/2021,dahlia,GOLO,0,0,,SG,C dirty sample,CON
+511,imp,08/11/2021,eutrochium,GOLO,NA,NA,,NA,C dead 8/12 RY,CON
+512,imp,08/11/2021,eutrochium,GOLO,NA,NA,,NA,dead 8/12 RY,CON
+513,imp,08/11/2021,eutrochium,GOLO,NA,NA,,NA,C dead 8/12 RY,CON
+514,imp,08/11/2021,eutrochium,GOLO,0,0,,SG,C,CON
+515,imp,08/11/2021,eutrochium,GOLO,0,0,,SG,C,CON
+516,imp,08/11/2021,ageratum,GOLO,0,0,,RY,,CON
+517,imp,08/11/2021,dahlia,GOLO,1,7,,RY,,CON
+518,imp,08/11/2021,eutrochium,GOLO,NA,NA,,NA,C dead 8/12 RY,CON
+519,imp,08/11/2021,eutrochium,GOLO,1,37,,RY,,CON
+520,imp,08/11/2021,eutrochium,GOLO,NA,NA,,NA,C dead 8/12 RY,CON
+521,imp,08/11/2021,dahlia,GOLO,1,31,,SG,,CON
+522,imp,08/11/2021,dahlia,GOLO,0,0,,SG,C dead 8/12 RY,CON
+523,imp,08/11/2021,dahlia,GOLO,1,7,,SG,,CON
+524,imp,08/11/2021,dahlia,GOLO,1,32,,RY,,CON
+525,imp,08/11/2021,eutrochium,GOLO,1,83,,RY,,CON
+526,imp,08/11/2021,dahlia,GOLO,1,9,,SG,,CON
+527,imp,08/11/2021,zinnia,GOLO,1,396,,SG,C,CON
+528,imp,08/11/2021,dahlia,GOLO,0,0,,RY,C,CON
+529,imp,08/11/2021,ageratum,GOLO,1,9,,SG,C,CON
+530,imp,08/11/2021,celosia,GOLO,1,46,,RY,C,CON
+531,imp,08/11/2021,dahlia,GOLO,0,0,,SG,,CON
+532,imp,08/12/2021,celosia,LASA,1,1,,SG,,CUT
+533,imp,08/12/2021,celosia,LASA,1,38,,RY,C,CUT
+534,imp,08/12/2021,zinnia,LASA,0,0,,RY,C,CUT
+535,imp,08/12/2021,asters,LASA,1,570,,SG,,CUT
+536,imp,08/12/2021,celosia,LASA,0,0,,SG,,CUT
+537,imp,08/12/2021,celosia,LASA,1,5,,SG,C old,CUT
+538,imp,08/12/2021,zinnia,LASA,1,1,,SG,,CUT
+539,imp,08/12/2021,celosia,LASA,1,6,,RY,,CUT
+540,imp,08/12/2021,zinnia,LASA,0,0,,RY,,CUT
+541,imp,08/12/2021,zinnia,LASA,0,0,,RY,,CUT
+542,imp,08/12/2021,helianthus,LASA,1,1,,RY,,CUT
+543,imp,08/12/2021,zinnia,LASA,0,0,,RY,,CUT
+544,imp,08/12/2021,zinnia,LASA,1,18,,SG,,CUT
+545,imp,08/12/2021,celosia,LASA,1,29,,RY,,CUT
+546,imp,08/12/2021,zinnia,LASA,0,0,,RY,C,CUT
+547,imp,08/12/2021,zinnia,LASA,1,39,,SG,,CUT
+548,imp,08/12/2021,zinnia,LASA,1,91,,SG,,CUT
+549,imp,08/12/2021,zinnia,LASA,0,0,,RY,,CUT
+550,imp,08/12/2021,zinnia,LASA,1,3,,SG,,CUT
+551,imp,08/12/2021,ageratum,LASA,1,27,,SG,,CUT
+552,imp,08/12/2021,zinnia,LASA,1,6,,SG,,CUT
+553,imp,08/12/2021,celosia,LASA,1,30,,RY,,CUT
+554,imp,08/12/2021,celosia,LASA,0,0,,RY,,CUT
+555,imp,08/12/2021,zinnia,LASA,1,3,,SG,small rods swimmers,CUT
+556,imp,08/12/2021,zinnia,LASA,1,114,,SG,,CUT
+557,imp,08/12/2021,zinnia,LASA,0,0,,RY,C,CUT
+558,imp,08/12/2021,zinnia,LASA,1,6,,SG,C,CUT
+559,imp,08/12/2021,zinnia,LASA,0,0,,RY,,CUT
+560,imp,08/12/2021,celosia,LASA,1,1,,SG,,CUT
+561,imp,08/12/2021,zinnia,LASA,1,220,,SG,,CUT
+562,imp,08/12/2021,celosia,LASA,1,6,,SG,,CUT
+563,imp,08/12/2021,eutrochium,GOLO,1,40,,SG,,CON
+564,imp,08/12/2021,eutrochium,GOLO,1,39,,RY,,CON
+565,imp,08/12/2021,cilantro,GOLO,1,34,,RY,C,CON
+566,imp,08/12/2021,basil,GOLO,1,84,,SG,,CON
+567,imp,08/12/2021,eutrochium,GOLO,1,363,,SG,C,CON
+568,imp,08/12/2021,eutrochium,GOLO,0,0,,RY,,CON
+569,imp,08/12/2021,eutrochium,GOLO,1,1,,SG,,CON
+570,imp,08/12/2021,eutrochium,GOLO,0,0,,SG,,CON
+571,imp,08/12/2021,dahlia,GOLO,1,8,,RY,C missing some ringer solution so very dirty and hard to count,CON
+572,imp,08/12/2021,cilantro,GOLO,NA,NA,,NA,C dead 8/13/ RY,CON
+573,imp,08/12/2021,cilantro,GOLO,NA,NA,,NA,dead 8/13/ RY,CON
+574,imp,08/12/2021,dahlia,GOLO,1,2,,RY,,CON
+575,imp,08/12/2021,eutrochium,GOLO,1,16,,RY,C,CON
+576,imp,08/12/2021,basil,GOLO,NA,NA,,NA,C dead 8/13 RY,CON
+577,imp,08/12/2021,snapdragon,GOLO,0,0,,RY,C,CON
+578,imp,08/12/2021,basil,GOLO,1,7,,SG,C black guts (not dead),CON
+579,imp,08/12/2021,eutrochium,GOLO,NA,NA,,NA,escaped 8/13 RY,CON
+580,imp,08/12/2021,basil,GOLO,1,37,,RY,C,CON
+581,imp,08/12/2021,basil,GOLO,1,62,,RY,,CON
+582,imp,08/12/2021,cilantro,GOLO,NA,NA,,NA,dead 8/13 RY,CON
+583,imp,08/12/2021,eutrochium,GOLO,0,0,,SG,C,CON
+584,imp,08/12/2021,eutrochium,GOLO,1,16,,RY,,CON
+585,imp,08/12/2021,dahlia,GOLO,1,21,,RY,,CON
+586,imp,8/16/21,silphium,SIMP,0,0,,RY,,CON
+587,imp,8/16/21,cosmos,SIMP,1,1,,RY,,CON
+588,imp,8/16/21,cosmos,SIMP,1,101,,SG,,CON
+589,imp,8/16/21,zinnia,SIMP,1,1,,RY,,CON
+590,imp,8/16/21,zinnia,SIMP,0,0,,SG,,CON
+591,imp,8/16/21,zinnia,SIMP,0,0,,SG,small rods,CON
+592,imp,8/16/21,cosmos,SIMP,0,0,,RY,,CON
+593,imp,8/16/21,silphium,SIMP,0,0,,SG,,CON
+594,imp,8/16/21,silphium,SIMP,0,0,,SG,,CON
+595,imp,8/16/21,silphium,SIMP,0,0,,SG,,CON
+596,imp,8/16/21,zinnia,SIMP,0,0,,RY,,CON
+597,imp,8/16/21,zinnia,SIMP,0,0,,SG,,CON
+598,imp,8/16/21,tomato,SIMP,1,7,,SG,,CON
+599,imp,8/16/21,cosmos,SIMP,0,0,,SG,,CON
+600,imp,8/16/21,cosmos,SIMP,0,0,,SG,,CON
+601,imp,8/16/21,silphium,SIMP,1,6,,RY,,CON
+602,imp,8/16/21,cosmos,SIMP,1,103,,SG,small rods,CON
+603,imp,8/16/21,silphium,SIMP,0,0,,SG,,CON
+604,imp,8/16/21,cosmos,SIMP,0,0,,SG,,CON
+605,imp,8/16/21,cosmos,SIMP,0,0,,SG,yellow C load,CON
+606,imp,8/16/21,cosmos,SIMP,0,0,,RY,,CON
+607,imp,8/16/21,cosmos,SIMP,1,1,,SG,,CON
+608,imp,8/16/21,silphium,SIMP,1,1,,SG,,CON
+609,imp,8/16/21,zinnia,SIMP,0,0,,RY,,CON
+610,imp,8/16/21,tomato,SIMP,0,0,,RY,Cream C load,CON
+611,imp,8/16/21,tomato,SIMP,0,0,,RY,,CON
+612,imp,8/16/21,silphium,SIMP,NA,NA,,NA,dead,CON
+613,imp,8/16/21,zinnia,SIMP,0,0,,RY,,CON
+614,imp,8/16/21,zinnia,SIMP,0,0,,SG,,CON
+615,imp,8/16/21,silphium,SIMP,0,0,,RY,,CON
+616,imp,8/16/21,zinnia,SIMP,0,0,,RY,,CON
+617,imp,8/16/21,zinnia,SIMP,1,2,,SG,,CON
+618,imp,8/16/21,tomato,SIMP,0,0,,RY,,CON
+619,imp,8/16/21,cosmos,SIMP,1,11,,SG,,CON
+620,imp,8/16/21,cosmos,SIMP,0,0,,SG,,CON
+621,imp,8/16/21,zinnia,SIMP,0,0,,SG,,CON
+622,imp,8/16/21,zinnia,SIMP,0,0,,SG,,CON
+623,imp,8/16/21,cosmos,SIMP,1,61,,RY,,CON
+624,imp,8/16/21,cosmos,SIMP,0,0,,RY,,CON
+625,imp,8/16/21,cosmos,SIMP,0,0,,RY,,CON
+626,imp,8/16/21,cosmos,SIMP,0,0,,RY,,CON
+627,imp,8/16/21,silphium,SIMP,0,0,,RY,,CON
+628,imp,8/16/21,cosmos,SIMP,NA,NA,,NA,dead,CON
+629,imp,8/16/21,silphium,SIMP,1,78,,RY,,CON
+630,imp,8/17/21,paperdaisy/cosmos,LAUR,1,30,,EK,,CUT
+631,imp,8/17/21,cosmos,LAUR,0,0,,SG,,CUT
+632,imp,8/17/21,cosmos,LAUR,1,4,,SG,,CUT
+633,imp,8/17/21,cosmos,LAUR,1,78,,RY,,CUT
+634,imp,8/17/21,zinnia,LAUR,0,0,,RY,,CUT
+635,imp,8/17/21,zinnia,LAUR,NA,NA,,NA,dead,CUT
+636,gris,8/17/21,cosmos,LAUR,1,97,,EK,*mixed up IDs but we are pretty sure this is correct,CUT
+637,gris,8/17/21,cosmos,LAUR,1,278,,RY,triple tube mix up,CUT
+638,imp,8/17/21,zinnia,LAUR,1,10,,RY,,CUT
+639,gris,8/17/21,calendula,LAUR,1,129,,EK,*mixed up IDS but pretty sure we are correct,CUT
+640,gris,8/17/21,zinnia,LAUR,1,166,,EK,,CUT
+641,gris,8/17/21,cosmos,LAUR,1,228,,SG,,CUT
+642,imp,8/17/21,zinnia,LAUR,0,0,,RY,,CUT
+643,gris,8/17/21,zinnia,LAUR,1,165,,SG,queen?,CUT
+644,imp,8/17/21,cosmos,LAUR,1,7,,EK,,CUT
+645,bimac,8/17/21,cosmos,LAUR,1,428,,SG,,CUT
+646,gris,8/17/21,cosmos,LAUR,NA,NA,,NA,"queen, died",CUT
+647,imp,8/17/21,cosmos,LAUR,1,65,,EK,,CUT
+648,imp,8/17/21,cosmos,LAUR,0,0,,RY,,CUT
+649,imp,8/17/21,ageratum,LAUR,0,0,,RY,,CUT
+650,imp,8/17/21,zinnia,LAUR,0,0,,SG,missing small intenstine,CUT
+651,imp,8/17/21,cosmos,LAUR,0,0,,RY,,CUT
+652,imp,8/17/21,zinnia,LAUR,1,41,,RY,,CUT
+653,imp,8/17/21,zinnia,LAUR,0,0,,RY,,CUT
+654,imp,8/17/21,zinnia,LAUR,0,0,,RY,,CUT
+655,imp,8/17/21,zinnia,LAUR,1,215,,EK,,CUT
+656,imp,8/17/21,zinnia,LAUR,NA,NA,,NA,escaped *,CUT
+657,imp,8/17/21,zinnia,LAUR,1,8,,SG,,CUT
+658,imp,8/17/21,zinnia,LAUR,0,0,,SG,,CUT
+659,imp,8/17/21,zinnia,LAUR,0,0,,SG,,CUT
+660,imp,8/17/21,zinnia,LAUR,0,0,,SG,,CUT
+661,imp,8/17/21,zinnia,LAUR,0,0,,SG,,CUT
+662,imp,8/17/21,zinnia,LAUR,0,0,,RY,,CUT
+663,imp,8/17/21,cosmos,LAUR,0,0,,RY,,CUT
+664,imp,8/17/21,zinnia,LAUR,0,0,,SG,,CUT
+665,imp,8/17/21,zinnia,LAUR,0,0,,SG,,CUT
+666,imp,8/17/21,zinnia,LAUR,0,0,,EK,,CUT
+667,imp,8/17/21,zinnia,LAUR,NA,NA,,NA,dead,CUT
+668,imp,8/17/21,zinnia,LAUR,0,0,,SG,,CUT
+669,imp,8/17/21,zinnia,LAUR,0,0,,EK,,CUT
+670,imp,8/17/21,zinnia,LAUR,0,0,,RY,,CUT
+671,imp,8/17/21,zinnia,LAUR,0,0,,SG,,CUT
+672,imp,8/17/21,zinnia,LAUR,0,0,,SG,old,CUT
+673,imp,8/17/21,zinnia,LAUR,0,0,,RY,*,CUT
+674,imp,8/17/21,zinnia,LAUR,0,0,,RY,,CUT
+675,imp,8/17/21,zinnia,LAUR,1,92,,EK,,CUT
+676,imp,8/17/21,zinnia,LAUR,1,63,,EK,,CUT
+677,imp,8/17/21,zinnia,LAUR,0,0,,RY,,CUT
+678,imp,8/17/21,zinnia,LAUR,0,0,,SG,,CUT
+679,imp,8/18/21,eutrochium,GOLO,1,26,,RY,,CON
+680,imp,8/18/21,eutrochium,GOLO,1,25,,RY,,CON
+681,imp,8/18/21,dahlia,GOLO,1,2,,SG,,CON
+682,vagans,8/18/21,spiraea,GOLO,0,0,,SG,,CON
+683,imp,8/18/21,eutrochium,GOLO,0,0,,SG,,CON
+684,imp,8/18/21,eutrochium,GOLO,1,19,,SG,,CON
+685,imp,8/18/21,eutrochium,GOLO,0,0,,RY,,CON
+686,imp,8/18/21,zinnia,GOLO,0,0,,RY,,CON
+687,imp,8/18/21,eutrochium,GOLO,0,0,,SG,,CON
+688,vagans,8/18/21,spiraea,GOLO,0,0,,SG,,CON
+689,imp,8/18/21,eutrochium,GOLO,1,23,,SG,,CON
+690,imp,8/18/21,basil,GOLO,1,53,,RY,,CON
+691,imp,8/18/21,ageratum,GOLO,1,23,,RY,,CON
+692,imp,8/18/21,myosotis,GOLO,0,0,,RY,,CON
+693,imp,8/18/21,ageratum,GOLO,0,0,,SG,,CON
+694,imp,8/18/21,spiraea,GOLO,1,1,,RY,,CON
+695,imp,8/18/21,eutrochium,GOLO,1,3,,RY,,CON
+696,imp,8/18/21,eutrochium,GOLO,1,49,,SG,,CON
+697,imp,8/18/21,eutrochium,GOLO,0,0,,SG,,CON
+698,imp,8/18/21,dahlia,GOLO,1,62,,RY,,CON
+699,imp,8/18/21,zinnia,GOLO,0,0,,RY,,CON
+700,imp,8/18/21,eutrochium,GOLO,0,0,,RY,,CON
+701,vagans,8/18/21,spiraea,GOLO,0,0,,RY,,CON
+702,imp,8/18/21,tomato,GOLO,1,7,,RY,,CON
+703,imp,8/18/21,zinnia,GOLO,0,0,,SG,,CON
+704,imp,8/18/21,NA,GOLO,0,0,,RY,,CON
+705,imp,8/18/21,centaurea,GOLO,0,0,,RY,,CON
+706,imp,8/18/21,zinnia,GOLO,0,0,,RY,,CON
+707,imp,8/18/21,spiraea,GOLO,0,0,,RY,,CON
+708,imp,8/18/21,eutrochium,GOLO,1,66,,SG,,CON
+709,imp,8/18/21,dahlia,GOLO,NA,NA,,NA,not used weird abdomen,CON
+710,imp,8/18/21,dahlia,GOLO,0,0,,RY,,CON
+711,imp,8/18/21,zinnia,GOLO,0,0,,RY,,CON
+712,imp,8/18/21,eutrochium,GOLO,1,1,,SG,,CON
+713,imp,8/18/21,eutrochium,GOLO,1,23,,RY,,CON
+714,imp,8/18/21,eutrochium,GOLO,NA,NA,,NA ,dead 8/19/21,CON
+715,imp,8/18/21,spiraea,GOLO,1,48,,RY,,CON
+716,imp,8/18/21,zinnia,GOLO,NA,NA,,NA,dead 8/19/21,CON
+717,imp,8/18/21,eutrochium,GOLO,1,30,,RY,,CON
+718,NA,8/18/21,NA,GOLO,1,35,,SG,"pinned, vagans/gris",CON
+719,imp,8/18/21,zinnia,GOLO,0,0,,RY,,CON
+720,imp,8/19/21,zinnia,LASA,0,0,,RY,C,CUT
+721,imp,8/19/21,ageratum,LASA,1,71,,SG,C,CUT
+722,imp,8/19/21,zinnia,LASA,0,0,,SG,C,CUT
+723,imp,8/19/21,zinnia,LASA,NA,NA,,NA,C,CUT
+724,imp,8/19/21,zinnia,LASA,NA,NA,,NA,C,CUT
+725,imp,8/19/21,zinnia,LASA,1,4,,RY,C,CUT
+726,imp,8/19/21,ageratum,LASA,1,24,,RY,C,CUT
+727,imp,8/19/21,ageratum,LASA,0,0,,RY,C,CUT
+728,imp,8/19/21,zinnia,LASA,0,0,,SG,C,CUT
+729,imp,8/19/21,celosia,LASA,1,15,,RY,C,CUT
+730,imp,8/19/21,celosia,LASA,0,0,,RY,C,CUT
+731,imp,8/19/21,zinnia,LASA,1,23,,SG,C,CUT
+732,imp,8/19/21,ageratum,LASA,0,0,,SG,C,CUT
+733,imp,8/19/21,zinnia,LASA,0,0,,RY,C,CUT
+734,imp,8/19/21,zinnia,LASA,1,74,,SG,C,CUT
+735,imp,8/19/21,zinnia,LASA,0,0,,SG,C,CUT
+736,imp,8/19/21,zinnia,LASA,0,0,,RY,,CUT
+737,imp,8/19/21,ageratum,LASA,1,22,,SG,,CUT
+738,imp,8/19/21,celosia,LASA,0,0,,RY,,CUT
+739,imp,8/19/21,zinnia,LASA,1,200,,SG,,CUT
+740,imp,8/19/21,zinnia,LASA,0,0,,RY,,CUT
+741,imp,8/19/21,celosia,LASA,1,1,,RY,,CUT
+742,imp,8/19/21,celosia,LASA,NA,NA,,NA,dead,CUT
+743,imp,8/19/21,celosia,LASA,1,54,,SG,,CUT
+744,imp,8/19/21,zinnia,LASA,0,0,,SG,,CUT
+745,imp,8/19/21,celosia,LASA,0,0,,SG,,CUT
+746,imp,8/19/21,celosia,LASA,0,0,,RY,,CUT
+747,imp,8/19/21,celosia,LASA,0,0,,RY,,CUT
+748,imp,8/19/21,celosia,LASA,0,0,,RY,,CUT
+749,imp,8/19/21,celosia,LASA,1,23,,RY,,CUT
+750,imp,8/19/21,zinnia,LASA,1,71,,SG,,CUT
+751,imp,8/19/21,zinnia,LASA,0,0,,RY,,CUT
+752,imp,8/19/21,zinnia,LASA,0,0,,RY,,CUT
+753,imp,8/19/21,zinnia,LASA,0,0,,RY,,CUT
+754,imp,8/19/21,zinnia,LASA,0,0,,RY,,CUT
+755,imp,8/19/21,zinnia,LASA,0,0,,SG,blackish guts,CUT
+756,vagans,8/19/21,snapdragon,LASA,1,87,,RY,,CUT
+757,imp,8/19/21,zinnia,LASA,1,64,,SG,,CUT
+758,imp,8/19/21,celosia,LASA,0,0,,SG,,CUT
+759,imp,8/19/21,zinnia,LASA,1,4,,SG,,CUT
+760,imp,8/19/21,zinnia,LASA,0,0,,SG,,CUT

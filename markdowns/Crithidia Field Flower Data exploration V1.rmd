@@ -1,0 +1,417 @@
+---
+title: "Crithidia Field Flower Data exploration V1"
+author: "Sonja"
+date: "1/20/2022"
+output: html_document
+---
+
+This is my first attempt at data exploration for the Crithidia presence/absence and LOG10(crith infection counts) vs. farms, visit and field flower abundance. 
+
+I am using the "crit_ast_v1.csv". 
+
+
+ * Here are values for the different variables in the dataframe 
+
+
+* "farm" = farm    
+* "visit"   = visit      
+* "bee_ID"   = bee_ID      
+* "sp" = bombus sp.
+* "PA"  = presence/absent crithidia   
+* "crit_cnt" = raw crith count    
+* "log10_cnt"  = log10 crith count  
+* "Wing_MM" = wing size     
+* "border"  = log10(sum all border flr inflr)   
+* "cut"  =  log10(sum all cut flr inflr)        
+* "log.sum_ast_inflr" = log10(sum all asteraceae flr inflr)
+
+
+I chose these variables because this is what Rosemary used in her data set. I am mostly working with the log10 transformed data.  
+
+The flowers in the field are divided into log10(total abundance of flower head or inflorescence) for cut, border, and total Asteraceae flowers. 
+
+
+```{r setup, include=FALSE}
+require(here)
+library(dplyr)
+library(tidyverse)
+```
+
+
+```{r, read data}
+o <- read.csv(here("data", "crit_ast_v1.csv"))
+o<-o[,-1] # get rid of that weird number column
+```
+
+
+The first things I notice from the summary of the data set 
+There are 73 NAs rows in which bees died before dissection. I will remove this from the data set for the analysis, but I will retain them for general counts of Bombus species at each site and across time. 
+
+Next, there are 87 NAs in the Wing_MM, wing measurement, column this is 87-73= 14 wings were not found/not measurable/torn. When doing the analysis I will have to see if it matters to include or not include these wings. 
+
+Other notes, I do not have the flowers separated by species. 
+But I can do a quick data exploration of the amount of flower types per farm across time, in a different markdown file. 
+
+
+```{r, echo=FALSE}
+summary(o)
+
+#make visit an ordered factor 
+o$visit <- factor(o$visit, levels = c("1", "2", "3"))
+```
+
+## General Bombus species exploration 
+
+### Bombus sp. abundance, between farm and visits. 
+
+```{r, echo=FALSE}
+
+bee_explr<-o%>%
+  filter(sp!="NA") #remove unidentified sp., that erases 12 bees from the dataframe. 
+
+sp_cnt<-bee_explr%>%
+  group_by(sp)%>%
+  count()
+
+
+farm_sp_cnt<-bee_explr%>%
+  group_by(farm,sp)%>%
+  count()
+
+
+farm_visit_sp_cnt<-bee_explr%>%
+  group_by(farm, visit, sp)%>%
+  count()
+
+
+```
+
+
+```{r, echo=FALSE}
+sp_bars<-sp_cnt%>%
+ggplot(aes(sp, n))+
+  geom_bar(stat='identity')+
+  ggtitle("Abundance of Bombus spp.") +
+  theme(plot.title = element_text(hjust = 0.5))+
+  xlab("Bombus spp.") 
+  sp_bars
+```
+
+
+
+```{r, echo=FALSE}
+farm_sp_bars<-farm_sp_cnt%>%
+ggplot(aes(farm, n, fill=sp))+
+  geom_bar(stat='identity')+
+  ggtitle("Abundance of Bombus spp. per farm")
+  farm_sp_bars
+```
+
+
+
+```{r,echo=FALSE}
+farm_visit_sp_bars<-farm_visit_sp_cnt%>%
+ggplot(aes(visit,n, fill=sp))+
+  geom_bar(stat='identity')+
+  facet_wrap(~farm)+
+  ggtitle("Abundance of Bombus spp. per farm & visit")
+  farm_visit_sp_bars
+```
+
+
+
+We can see that it is challenging to compare between farm, visit and species because of the low number of non-imp species collected. 
+
+We could perform various models one where we group across imp and non-imp. 
+Depending on how we want treat the visit category as a replicate or not, we could combine all visits and farms and perform a model that would just look at imp vs non-imp on the levels of flower abundance. The replicates would be 6 for farms and not all farms would have an observation of each species, but at least 1 non-imp... 
+
+
+
+
+### Bombus sp and presence vs. absent Crithdia infection 
+
+```{r, echo=FALSE}
+bee_crith_PA <- bee_explr %>%
+  filter(PA!="NA") 
+```
+
+```{r, echo=FALSE}
+sp_crith_PA <- bee_crith_PA %>%
+  group_by(sp, PA)%>%
+  count()
+  
+  #calculate proportions of presence and absent to total bees dissected
+proportions<-sp_crith_PA%>%
+  group_by(sp)%>%
+  summarise(PA_total=n/sum(n))
+
+sp_crith_PA_pro<-cbind(sp_crith_PA, proportions[,2])%>%
+  mutate(PA_tot=round(PA_total,2)) # rounding 
+
+sp_crith_PA_bar <- sp_crith_PA_pro %>%
+  ggplot(aes(x = sp, y=n, fill=PA)) +
+  geom_bar(stat='identity')+
+  geom_text(aes(label = PA_tot), position = "stack")+
+  ggtitle("Counts presence/absence \n of Crithidia infection in Bombus spp.") +
+  theme(plot.title = element_text(hjust = 0.5))+
+  xlab("Bombus spp.") 
+sp_crith_PA_bar
+```
+
+
+
+Impatiens has the highest value of crithidia infection absence relative to presence, bimac has the least. Out all of the species, relative to the total amount of bees collected, the bees with the most infection presence was bimac > vagans > gris > imp. 
+
+
+```{r, echo=FALSE}
+
+farm_sp_crith_PA <- bee_crith_PA %>%
+  group_by(sp, farm, PA)%>%
+  count()
+
+farm_proportions<-farm_sp_crith_PA%>%
+  group_by(sp, farm)%>%
+  summarise(PA_total=n/sum(n))
+
+
+farm_sp_crith_PA_pro<-cbind(farm_sp_crith_PA, farm_proportions[,3])%>%
+  mutate(PA_tot = round(PA_total,2)) # rounding
+
+farm_sp_crith_PA_bars <- farm_sp_crith_PA_pro %>%
+  ggplot(aes(x = sp, y= n, fill=PA)) +
+  facet_wrap(~farm)+
+  geom_bar(stat = 'identity')+
+  geom_text(aes(label = PA_tot), position = "stack")+
+   ggtitle("Counts presence/absence of \n Crithidia infection in Bombus spp. at farms") +
+  theme(plot.title = element_text(hjust = 0.5) )
+
+farm_sp_crith_PA_bars
+```
+
+
+
+It is a little tricky to visualize this, but in general I am not seeing a pattern of cut vs. control farms... notably, like we saw before, simple gifts had the least amount of crithidia infection. It was also theh only farm with planted cultivated sunflowers. From what I oberved the flowers were sterile... we could check to see if this variety was in fact sterile. 
+
+
+
+```{r, echo=FALSE}
+
+farm_visit_imp_crith_PA <- bee_crith_PA %>%
+  filter(sp=="imp")%>%
+  group_by(farm, visit, PA)%>%
+  count()
+
+farm_imp_proportions<-farm_visit_imp_crith_PA%>%
+  group_by(farm, visit)%>%
+  summarise(PA_total=n/sum(n))
+
+farm_imp_crith_PA_pro<-cbind(farm_visit_imp_crith_PA, farm_imp_proportions[,3])%>%
+  mutate(PA_tot = round(PA_total,2)) # rounding
+
+
+farm_visit_imp_crith_PA_bars  <- farm_imp_crith_PA_pro %>%
+  ggplot(aes(x = visit, y=n, fill=PA)) +
+  facet_wrap(~farm)+
+  geom_bar(stat = 'identity')+
+  geom_text(aes(label = PA_tot), position = "stack")+
+   ggtitle("Counts presence/absence of Crithidia infection \n in B. impatien at farms&visits") +
+  theme(plot.title = element_text(hjust = 0.5))
+farm_visit_imp_crith_PA_bars
+
+```
+
+
+
+How weird!!!! It looks like for some farms there is in increase of presence of crith infection over time, except in the farms GOLO, LASA and LAUR... this is strange... I can almost make an guess that it could be due to an increase in asteraceae floral resources... I am not sure how to add error bars on this graph. 
+
+
+### Bombus sp and average log10(Crithidia counts)
+
+
+This data is only using bees that had an observed infection. So the bees with "P" in the PA category. 
+
+
+```{r, echo=FALSE}
+bee_crith <- bee_explr %>%
+  filter(log10_cnt!="NA", PA=="P") #remove NA counts, only crithidia present data
+```
+
+
+```{r, echo=FALSE}
+# average log10count by sp.
+sp_crith <- bee_crith %>%
+  group_by(sp)%>%
+  summarise(mean_log10cnt = mean(log10_cnt), 
+            se_log10cnt=sd(log10_cnt)/sqrt(n()))%>%
+  ggplot(aes(x = sp, y = mean_log10cnt)) +
+  geom_col()+
+  geom_errorbar(aes(ymin=mean_log10cnt-se_log10cnt, 
+                    ymax= mean_log10cnt+se_log10cnt), 
+                width = 0.3, size = 1, 
+                position = position_dodge(0.8))+
+  ggtitle("Mean log10(Crithidia cell counts) \n in Bombus spp.") +
+  theme(plot.title = element_text(hjust = 0.5))+
+  ylab("Mean value log10(cell counts) per 0.02 ml") + 
+  xlab("Bombus spp.") 
+sp_crith
+
+```
+
+```{r, echo=FALSE}
+farm_sp_crith <- bee_crith %>%
+  group_by(farm, sp)%>%
+  summarise(mean_log10cnt = mean(log10_cnt),
+            se_log10cnt=sd(log10_cnt)/sqrt(n()))%>%
+  ggplot(aes(x = sp, y = mean_log10cnt, fill=sp)) +
+  facet_wrap(~farm)+
+  geom_col()+
+  geom_errorbar(aes(ymin=mean_log10cnt-se_log10cnt, 
+                    ymax= mean_log10cnt+se_log10cnt), 
+                width = 0.3, size = 1, 
+                position = position_dodge(0.8))+
+   ggtitle("Mean log10(Crithidia cell counts) \n in Bombus spp. at farms") +
+  theme(plot.title = element_text(hjust = 0.5))+
+  ylab("Mean value log10(cell counts) per 0.02 ml") + 
+  xlab("farm sites") 
+farm_sp_crith
+```
+
+
+
+Perhaps if we did a comparison w/in bombus species only in the sites that they were present, perhaps we could see a slight effect of amount of asteraceae flowers. 
+
+The bars w/o error bars are instances where there was only 1 observation of a specific species at a specific site. 
+
+I will look at how the cnts of Crithidia cell may vary across visits and farms in impatiens. I do not this it is possible to look at this for the other species due to low numbers... 
+
+```{r, echo=FALSE}
+farm_visit_imp_crith <- bee_crith %>%
+  filter(sp=="imp")%>%
+  group_by(farm, visit)%>%
+  summarise(mean_log10cnt = mean(log10_cnt),
+            se_log10cnt=sd(log10_cnt)/sqrt(n()))%>%
+  ggplot(aes(x = visit, y = mean_log10cnt)) +
+  facet_wrap(~farm)+
+  geom_col()+
+  geom_errorbar(aes(ymin=mean_log10cnt-se_log10cnt, 
+                    ymax= mean_log10cnt+se_log10cnt), 
+                width = 0.3, size = 1, 
+                position = position_dodge(0.8))+
+   ggtitle("Mean log10(Crithidia cell counts) \n in B. impatien at farms&visits") +
+  theme(plot.title = element_text(hjust = 0.5))+
+  ylab("Mean value log10(cell counts) per 0.02 ml") + 
+  xlab("farm sites") 
+farm_visit_imp_crith
+
+
+```
+
+
+
+There might be a slight trend between time and crith cell counts. 
+
+I think it would be more informative to look at total counts by floral abundances rather than site visits before anything else.
+
+
+### Crithidia infection levels to flower abundance 
+
+Here I will be comparing how log10(crithidia cell counts) in Bombus sp. with present infections change depending on the different flower abundances.
+
+To begin I will be using the dataframe filtered to only include the bees with confirmed infection. 
+
+```{r, echo=FALSE}
+
+all_crit_all_ast<-bee_crith%>%
+  ggplot(aes(log.sum_ast_inflr, log10_cnt, color=sp))+
+  geom_point()+
+  ggtitle("Crithidia infection cell counts in funciton of \n total abunance of all asteraceae flowers")
+
+all_crit_all_ast
+```
+
+
+
+This looks very weird. I will take out the zero values from both crithidia (log10(1 crithidia cell)= 0) and flower abundances(RCON had no asteraceae flowers expect for border flower which we measure once)
+
+
+
+```{r, echo=FALSE}
+all_crit_all_ast_nozero<-bee_crith%>%
+  filter(log10_cnt!=0, log.sum_ast_inflr!=0)%>%
+  ggplot(aes(log.sum_ast_inflr, log10_cnt, color=sp))+
+  geom_point()+
+   geom_smooth(method = "lm", se = FALSE)+
+  ggtitle("Crithidia infection cell counts in funciton of \n total abunance of all asteraceae flowers...no zeros")
+
+all_crit_all_ast_nozero
+```
+
+
+
+There looks like there could be a slight relationship to total asteraceae flower abundance and levels of infection in each species. 
+Interestingly it seems this relationship is strongly positive for gris and only slightly negatively associated for impatiens. 
+
+
+```{r, echo=FALSE}
+
+crit_cut_nozero<-bee_crith%>%
+  filter(log10_cnt!=0, cut!=0)%>%
+  ggplot(aes(cut, log10_cnt, color=sp))+
+  geom_point()+
+   geom_smooth(method = "lm", se = FALSE)+
+  ggtitle("Crithidia infection cell counts in funciton of \n total abunance of cut flowers...no zeros")
+
+crit_cut_nozero
+
+```
+
+
+
+The relationship is similar for just cut flowers as for all asteracaea flowers... but there is now no relatioship between the impatiens and the other species. 
+
+
+
+```{r, echo=FALSE}
+crit_bord_nozero<-bee_crith%>%
+  filter(log10_cnt!=0, border!=0)%>%
+  ggplot(aes(border, log10_cnt, color=sp))+
+  geom_point()+
+   geom_smooth(method = "lm", se = FALSE)+
+  ggtitle("Crithidia infection cell counts in funciton of \n total abunance of border flowers...no zeros")
+
+crit_bord_nozero
+```
+
+
+
+The relationship of negative crithidia counts and border flowers seems strongest when not considring the cut flowers. BUT border flowers were not measured in a very methodological way. Some sites were only measured once... I believe this includes LAUR's meausurements... which were only during the last visit and not from flowers immediately on the edge... but rather along the entrance to the farm.... I cannot figure out how to replace this value with a 0 at the moment can will do it manually later... 
+
+
+```{r, echo=FALSE}
+
+#crit_bord_noLAUR<-bee_crith%>%
+ #replace(border, border=4.372419, 0)
+#%>% #replace LAUR
+ # filter(log10_cnt!=0, border!=0) #%>%
+  #ggplot(aes(border, log10_cnt, color=sp))+
+  #geom_point()+
+   #geom_smooth(method = "lm", se = FALSE)+
+  #ggtitle("Crithidia infection cell counts in funciton of \n total abunance of border flowers...no zeros")
+
+#crit_bord_noLAUR
+
+```
+
+```{r, echo=FALSE}
+crit_imp_farm_nozero<-bee_crith%>%
+  filter(sp=="imp", log10_cnt!=0, log.sum_ast_inflr!=0)%>%
+  ggplot(aes(log.sum_ast_inflr, log10_cnt, color=farm))+
+  geom_point()+
+   geom_smooth(method = "lm", se = FALSE)+
+  ggtitle("Crithidia infection cell counts in B.impatiens in funciton of \n total abunance of all asteraceae flowers...no zeros")
+
+crit_imp_farm_nozero
+```
+
+Basically when just looking at impatiens there appears to be a slight negative effect of asteraceae flower abundance on Crithidia counts... this is mostly apparent in all farms except LAUR which had the largest total abundance of flowers. Does not have the 0's for RCON. 
+
